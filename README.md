@@ -1,23 +1,13 @@
-# Maersk Market Intelligence Dashboard
+# Maersk portfolio dashboard - GitHub Pages package
 
-GitHub Pages deployment package.
+Upload the contents of this folder to the root of the GitHub Pages repository.
+
+## Current update
+- Added eight Chicago / Illinois lease comps from the Maersk IL comp graphics.
+- Added those comps to the map-ready lease comp overlay with the same comp marker / click-detail functionality.
+- Added Chicago market report access from lease comp detail cards where a matching Chicago report is available.
+- Updated the market report modal so embedded PDFs render inline instead of showing only a fallback message.
 
 ## Files
-
-- `index.html` - the full standalone Maersk North American Portfolio & Market Intelligence Dashboard with animated globe/login entry experience.
-- `.nojekyll` - prevents GitHub Pages from applying Jekyll processing.
-
-## GitHub Pages upload
-
-1. Create or open your GitHub repository.
-2. Upload the contents of this folder to the repository root.
-3. Go to Settings > Pages.
-4. Set Source to `Deploy from a branch`.
-5. Select `main` branch and `/root` folder.
-6. Save.
-
-GitHub Pages should serve the dashboard from the repository Pages URL.
-
-## Important security note
-
-This is a standalone front-end dashboard package. It is appropriate for a demo/login-gated experience, but true password security and automated password reset emails require hosted backend authentication.
+- `index.html` - full dashboard application
+- `.nojekyll` - keeps GitHub Pages from processing the site with Jekyll
