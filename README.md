@@ -1,13 +1,8 @@
-# Maersk portfolio dashboard - GitHub Pages package
+# Maersk Portfolio Dashboard
 
-Upload the contents of this folder to the root of the GitHub Pages repository.
+Static GitHub Pages package. Upload the contents of this folder to the root of the repository and publish from the main branch.
 
-## Current update
-- Added eight Chicago / Illinois lease comps from the Maersk IL comp graphics.
-- Added those comps to the map-ready lease comp overlay with the same comp marker / click-detail functionality.
-- Added Chicago market report access from lease comp detail cards where a matching Chicago report is available.
-- Updated the market report modal so embedded PDFs render inline instead of showing only a fallback message.
-
-## Files
-- `index.html` - full dashboard application
-- `.nojekyll` - keeps GitHub Pages from processing the site with Jekyll
+Latest update:
+- Added Fort Worth / Alliance TX lease comps from the 06-03-2026 comp report.
+- Corrected the 400 Intermodal Parkway map position to the Alliance / North Fort Worth location.
+- Associated the Fort Worth comps to 400 Intermodal Parkway so the comps overlay frames the selected Maersk location and related comps together.
